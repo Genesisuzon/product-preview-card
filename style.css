@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #f2ebe3;
+    font-family: 'Montserrat', sans-serif;
+}
+#card{
+    height: 560px;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    
+}
+#top-card {
+    height:40%;
+    width: 100%;
+}
+#top-card img{
+    height: 100%;
+    width: 100%;
+}
+#bottom-card{
+    height: 60%;
+     width: 100%; 
+     padding: 25px;
+     background-color: #ffffff;
+}
+#bottom-card  p{
+    color:#6c7289;
+}
+#product-type{
+    font-size: small;
+}
+
+#product-name{
+    margin-top: 10px;
+    font-size: large;
+}
+#description{
+    margin-top: 15px;
+}
+#price, #discount{
+    display: inline-block;
+    margin-top: 20px;
+}
+#discount{
+    text-decoration-line: line-through;
+    font-size: smaller;
+    position: relative;
+    top: -3px;
+    margin-left: 5px;
+}
+#price {
+color:#3c8067;
+font-size: large;
+}
+#button button{
+    width:300px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #3c8067;
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+#button button:hover{
+    background-color:#1c232b ;
+    transition: 0.7s;
+}
+#button img{
+    vertical-align: auto;
+    margin-right: 5px;
+}
+@media (min-width:576px) {
+    #card{
+    display: flex;
+        flex-direction: row;
+        height: 400px;
+            width:520px;
+            margin-top: 200px;
+    }
+#top-card,#bottom-card{
+    width: 50%;
+    height: 100%;
+
+}
+#button button{
+    width: 200px;
+    margin-top: 20px;
+    height: 40px;
+
+}
+#product-name{
+    margin-top: 20px;
+}
+#description{
+    margin-top: 25px;
+}
+#price,
+#discount{
+    margin-top: 20px;
+}
+#bottom-card h4{
+    margin-top: 10px;
+}
+
+}
